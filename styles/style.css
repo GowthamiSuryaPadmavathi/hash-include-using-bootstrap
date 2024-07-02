@@ -1,0 +1,657 @@
+body{
+    background: #161616 !important;
+    font-family:  Raleway, sans-serif !important;
+}
+.logo{
+margin-left: 120px;
+}
+.nav-container{
+    padding-top: 0.5%;
+    padding-bottom: 2.5%;
+}
+.navbar-nav .nav-item a.nav-navigation-link{
+    font-size: 18px !important;
+}
+.hash-navbar .navbar-nav a.nav-link.active {
+    color: #f8da64;
+}
+p.banner-call-section{
+    background: #fff;
+    display: inline-block;
+    padding: 10px 45px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.border{
+    border-top: none!important;
+    border-radius: 10px;
+}
+.border1{
+    border-top:none !important ;
+    border-left: 1.5px solid #fff;
+    border-right: 1.5px solid #fff;
+}
+.banner-container{
+    padding: 4% 0 6%;
+    max-width: 85% !important;
+    margin: auto !important;
+}
+h1.banner-heading{
+    font-size: 64px;
+    color: #fff;
+}
+button.btn.btn-warning{
+    text-transform: uppercase;
+    padding: 15px 23px;
+    margin-top: 12px;
+  
+}
+.path-btn-container a{
+    text-decoration: none;
+    color:#000;
+}
+.banner-img{
+    position: absolute;
+    top: -61px;
+}
+.explore-more-container img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -14%);
+    background: #624BFF;
+    border-radius: 50%;
+    padding: 30px;
+    cursor: pointer;
+}
+.courses-section{
+    padding-top: 14%;
+}
+h2.primary-heading{
+    font-size: 44px;
+    font-weight: 600;
+}
+.courses-list-container{
+    margin: 25px;
+}
+.course-filter-item.active{
+    background-color: #624bff;
+    color: #fff;
+    border-color: #624bff;
+}
+.course-filter-item{
+    color: #818c96;
+    border: 1px solid #C4C4C4;
+    border-radius: 4px;
+    margin-right: 26px;
+    padding: 5px 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.course-mobile-filters{
+    display: none;
+}
+.each-card-content{
+    background:#fff;
+    border-radius: 45px;
+    /* padding-right: 20px; */
+    /* padding-left: 12px; */
+    padding-top: 10px;
+    margin-top: -30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+}
+.card-title{
+    color: #fff;
+    font-weight: 600;
+}
+.card-text{
+    color:#d9d9d9;
+    font-weight:100;
+    height: 124px;
+    font-size: 14px;
+}
+.btn.btn-primary.text-end{
+    color:#f8da64 ;
+    background: #212121 !important;
+    border:1px solid #f8da64 ;
+    /* margin-left: 100px !important; */
+    /* margin-right: 0px !important; */
+    /* padding-right: 20px !important; */
+    /* padding-left: 11px !important; */
+    font-size: 15px !important;
+    float: inline-end;
+    
+  /* width:120px; */
+    /* text-align:right !important; */
+
+}
+section.whyus-section{
+    padding: 11% 0 0;
+}
+.why-us-content.text-center{
+    max-width: 52%;
+    margin: auto;
+}
+.why-us-content p {
+    color: #d9d9d9;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 62px;
+}
+.why-us-cards{
+    max-width: 88%;
+    margin: auto;
+}
+.why-us-each-card{
+    background: #212121;
+    color: #d9d9d9;
+    text-align: center;
+    padding: 30px 55px 18px;
+    border-radius: 10px;
+    margin-bottom: 23px;
+    width: 279px !important;
+    height: 195px;
+}
+p.why-us-each-card-content{
+    margin-top: 22px;
+    font-size: 18px;
+    padding-bottom: 21px;
+}
+.why-we-stand-out{
+    background: #212121;
+    max-width: 97%;
+    margin: 4% auto;
+    padding: 7%;
+}
+span.why-we-line{
+    width: 41px;
+    display: inline-block;
+    height: 3px;
+    background: #F8DA64;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+span.why-we-standout-text{
+    color: #fff;
+    font-weight: 200;
+}
+h2.primary-heading{
+    font-size: 44px;
+    font-weight: 600;
+}
+.why-we-stand-out-cards{
+    margin-top: 69px;
+}
+.why-we-stand-each-card {
+    text-align: center;
+    border: .5px solid #FFFFF0;
+    border-radius: 15px;
+    padding: 17px 13px 13px;
+}
+p.why-we-card-title{
+    color: ivory;
+    margin-top: 19px;
+}
+p.why-we-card-para{
+    color: ivory;
+    font-weight: 100;
+    height: 123px;
+}
+section.who-is-hashinclude-for{
+    padding: 1% 0 2% 8%;
+}
+p.who-is-traning-action {
+    background: #D4E1FF;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: #0b7077;
+}
+h2.who-is-heading {
+    color: white;
+    font-size: 39px;
+}
+.who-is-for-each-points {
+    display: flex;
+    margin-bottom: 21px;
+}
+img.tick-icons-for-each-point {
+   
+    padding-right: 16px;
+}
+p.who-is-each-point-para {
+    color: #fff;
+    margin-bottom: 0px;
+}
+.who-is-for-points {
+    padding-top: 32px;
+}
+section.about-us-section {
+    padding-top: 5%;
+    background: #212121;
+}
+img.img-fluid.about-us-image {
+    width: 72%;
+}
+span.about-us-line {
+    background: #F8DA64;
+    width: 47px;
+    display: inline-block;
+    height: 4px;
+}
+span.about-us-heading {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    vertical-align: middle;
+    margin-left: 22px;
+}
+h2.about-heading {
+    color: ivory;
+    margin: 20px 0;
+}
+p.about-content {
+    color: #d9d9d9;
+    font-weight: 100;
+    max-width: 80%;
+    line-height: 31px;
+}
+.about-us-learnMore{
+    border: 1px solid #F8DA64;
+    padding: 5px 31px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #f8da63;
+    transition: all 2s ease-in-out ; 
+}
+.about-us-learnMore:hover{
+    background:#f8da63 ;
+    color: #000;
+ }
+ .about-hash-number-section {
+    display: flex;
+    justify-content: space-evenly !important;
+    padding: 4% 0;
+}
+.about-number-section {
+    color: #fff;
+    text-align: center;
+}
+h2.about-us-number {
+    font-size: xxx-large;
+}
+span.indicator{
+    color: #f8da63;
+}
+p.about-us-label {
+    font-weight: 100 ;
+    margin-top: 15px;
+
+}
+section.testimonial-section{
+    background: #161616;
+    padding: 6%;
+}
+h2.who-is-for-heading{
+    color: #fff;
+    font-size: 39px;
+    margin: 13px 0 20px;
+}
+.student-details{
+    /* display: flex; */
+    color: #fff;
+    margin-left: 36px;
+}
+.student-info{
+    margin-left: 16px;
+    margin-top: 6px;
+}
+.testimonial-inner-container{
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 11px;
+    height: 319px;
+ 
+    background: linear-gradient(143deg, rgba(32, 32, 32, 1) 45%, rgb(49 40 108) 100%);
+}
+.student-name{
+    margin-left: 5px;
+}
+.course-name{
+    margin-left:5px;
+}
+.rating{
+    margin-top: 15px;
+}
+
+
+p.student-feedback{
+    color: #d9d9d9;
+    font-weight: 100;
+    margin-left: 26px;
+    max-width: 90%;
+    margin-top: 15px;
+    /* height: 169px; */
+}
+.offer-period-block{
+    background: url("https://hashinclude.info/time-bg.50c998895fad7be4.svg") #624BFF;
+    max-width: 90%;
+    margin: 10% auto auto;
+    border-radius: 15px;
+    color: #fff;
+    padding: 3%;
+    background-position: 126px 127px;
+    background-repeat: no-repeat;
+}
+.offering-heading{
+    padding-left: 55px;
+}
+.offer-title  {
+    font-size: 44px;
+    font-weight: 600;
+}
+.offer-points-block{
+    margin: 40px 0;
+}
+p.offers-point-each {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+button.btn.btn-apply {
+    background: #fff;
+    color: #0b7077;
+    border-radius: 9px;
+}
+.offer-time-heading{
+    font-size: 35px;
+}
+h2.time-block {
+    font-size: 85px;
+}
+.offer-timing p{
+   font-size: 24px;
+    
+}
+label{
+    color: #fff;
+    font-size: 13px;
+}
+
+input.form-control{
+    border-top: none !important;
+    border-right: none !important;
+  border-left: none !important;
+      border-radius: 0px !important;
+      background: #212121 !important;
+      outline: none !important;
+      color:#fff !important;
+     
+  }
+  textarea.form-control{
+    border-top: none !important;
+    border-right: none !important;
+  border-left: none !important;
+      border-radius: 0px !important;
+      background: #212121 !important;
+      outline: none !important;
+      color:#fff !important;
+     
+  }
+  select.form-select{
+      border-top: none !important;
+      border-right: none !important;
+    border-left: none !important;
+        border-radius: 0px !important;
+        background: #212121 !important;
+        outline: none !important;
+        color: #545353 !important;
+        font-weight: 200;
+        
+        border-bottom: 1px sold #fff;
+       
+}
+select:focus{
+    outline:auto !important;
+  }
+input:focus{
+    outline: none !important;
+}
+::placeholder{
+    color:#36483e !important;
+}
+.btn.btn-register{
+  border-radius: 45px;
+  border: 1px solid #F7DA64;
+  margin-top: 33px;
+  color: #f7da64;
+  padding: 8px 48px;
+  width: 300px;
+}
+.modal-content{
+  background:#212121 !important;
+}
+.modal-header{
+  border-bottom: none;
+}
+.modal-footer{
+  border-top: none;
+}
+#footerid{
+  flex-direction: column;
+ }
+.modal-footer{
+  
+  text-align: center !important;
+}
+span.small-text{
+  display:inline-block !important;
+}
+footer{
+    background: url("https://hashinclude.info/footer-bg.cc00989cacc2122a.svg");
+   
+    background-size: cover;
+    color: #0b7077;
+    padding: 7% 7% 5%;
+    margin-right: 0px;
+}
+.contact-info a{
+    text-decoration: none; 
+    color: #0b7077;
+
+}
+.categories a{
+    text-decoration: none; 
+    color: #0b7077;
+}
+.links a{
+    text-decoration: none; 
+    color: #0b7077;
+}
+h6.footer-heading{
+    color: #0a033c;
+    font-weight: 600;
+
+} 
+
+
+
+
+@media screen and (max-width:767px) {
+    .navbar-brand img{
+        margin-left: 50px;
+    }
+    p.banner-call-section {
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+    h1.banner-heading{
+        font-size: 34px;
+    }
+    .path-btn-container{
+        display: flex;
+    }
+    button.btn.btn-warning {
+        font-size: 11px;
+        padding: 6px 12px;
+        align-self: center;
+    }
+    img.img-fluid.bannerimage {
+        width: 147px;
+        margin: 10px 9px 0 14px;
+    }
+    .courses-section{
+        padding-top: 12%;
+    }
+    .courses-list-container{
+        margin: 25px;
+    }
+    img.img-fluid.banner-img {
+        position: absolute;
+        top: 7px;
+    }
+    img.img-fluid.explore-img {
+        width: 23%;
+        padding: 12px;
+        transform: translate(-50%, -22%);
+    }
+    h2.primary-heading{
+        font-size: 37px;
+        font-weight: 600;
+    }
+    .course-filter-item{
+        padding: 4px 10px;
+        font-size: 12px;
+        margin-right: 15px;
+    }
+    /* .populars-section {
+        width: 122% !important;
+        margin-left: -60px !important;
+    } */
+    .courses-card-container {
+        margin-bottom: 20px ;
+        width: 106% !important;
+        margin-left: -27px !important;
+    }
+    .why-us-each-card{
+        padding: 13px 21px !important;
+        width: 130px !important;
+        margin: 9px !important;
+        height: 169px;
+    }
+    p.why-us-each-card-content{
+        margin-top: 22px !important;
+        font-size: 15px !important;
+    }
+    .why-we-stand-each-card{
+        margin-bottom: 20px;
+    }
+    p.who-is-traning-action {
+        margin-top: 34px;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    .testimonial-inner-container{
+        margin-bottom: 32px;
+        height: auto;
+    }
+    .offer-time-block{
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+  
+   
+   
+    /* .courses-card-container{
+        margin-bottom: 20px;
+    } */
+}
+@media screen and (max-width:576px){
+    /* .course-filter-section.container.d-flex{
+        display:none !important;
+     } */
+     img.img-fluid.banner-img{
+        position: relative;
+        top: 24px;
+        left: 55px;
+     }
+    .course-mobile-filters{
+        display: block !important;
+        max-width: 80%;
+        margin: 23px auto;
+    }
+    .courses-card-container {
+        width: 90% !important;
+        margin-left: 34px !important;
+    }
+    .courses-list-container{
+        display: none;
+    }
+    .course-mobile-filters select{
+        background: #000;
+        color: #fff;
+    }
+    a.btn.btn-primary.text-end {
+        float: inline-end;
+    }
+    .each-card-content {
+        max-width: 53% !important;
+        margin-left: 17% !important;
+    }
+    p.students{
+        margin-bottom: 0px;
+    }
+    .why-us-each-card{
+        width: auto !important;
+        padding: 20px 21px 3px !important;
+    }
+    h2.who-is-heading {
+        font-size: 30px !important;
+    }
+    p.who-is-each-point-para {
+        font-size: 14px;
+    }
+    section.about-us-section{
+        padding: 5% 6% !important;
+    }
+    .about-hash-number-section{
+        /* flex-wrap: wrap !important; */
+        max-width: 90%;
+        margin: auto;
+    }
+    p.about-content{
+        max-width: 100%;
+    }
+    h2.who-is-for-heading{
+        font-size: 27px;
+        margin: 13px 0 7px;
+    }
+    .offer-time {
+        margin-right: 24px;
+        text-align: center;
+    }
+    h2.time-block{
+        font-size: 45px !important;
+    }
+    .offer-timing p{
+       font-size: 15px;
+    }
+    .offer-time-heading{
+        font-size: 29px;
+    }
+    .offer-title{
+      font-size: 26px;
+     font-weight: 600;
+      
+    }
+    .offering-heading{
+         padding-left: 19px;
+        
+    }
+    .offers-point-each span{
+        font-size: 14px;
+    }
+}

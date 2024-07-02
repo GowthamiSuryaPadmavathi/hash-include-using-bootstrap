@@ -1,0 +1,216 @@
+body{
+    background: black;
+}
+#navbar-nav{
+    max-width: 1100px;
+    margin-left: 120px;
+   /* margin:auto; */
+   /* width:1200px; */
+}
+.navbar-nav{
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+span.navbar-toggler-icon {
+    background-color:#fff !important;
+}
+a.nav-link {
+  
+    font-size: 19px;
+    /* max-width:500px; */
+}
+.about-us-section{
+    background: #212121;
+}
+.about-us-content{
+    color: #d9d9d9;
+    font-weight: 100;
+    max-width: 80%;
+    line-height: 31px;
+}
+.about-us-learnMore{
+border: 1px solid #F8DA64;
+padding: 5px 31px;
+font-size: 15px;
+font-weight: 700;
+color: #f8da63;
+transition: all 2s ease-in-out ; 
+}
+.about-us-learnMore:hover{
+   background:#f8da63 ;
+   color: #000;
+}
+.about-number-section{
+    text-align: center;
+    color:#fff;
+}
+h2.about-us-number{
+    font-size: xxx-large;
+    font-family: Raleway, sans-serif !important;
+}
+.indicator{
+    color:#f8da63;
+  
+}
+span.about-us-line{
+    width:50px;
+    height:2px;
+    background: #F8DA64;
+    display: inline-block;
+
+}
+.image-fluid.about-us-image{
+    width: 72%;
+}
+.about-us-label{
+    color:#d9d9d9;
+    font-weight: 100;
+    margin-top: 15px;
+}
+.about-us-heading{
+    color: #d9d9d9;
+}
+p.hr-link{
+  
+  background: #fff;
+  height: 1px;
+  width: 76%;
+  margin: auto;
+  
+}
+img.underline {
+    position: relative;
+    left: 69px;
+    top: -11px;
+}
+p.our-team-content{
+    color:#d9d9d9;
+    font-weight: 100;
+}
+.why-us-content{
+    max-width: 39%;
+    margin: auto;
+}
+.team-info-block{
+    position: absolute;
+    top: 74px;
+    left: 40px;
+}
+h2.member-name{
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+p.member-designation{
+   font-size: 13px;
+   text-align: center;
+}
+footer{
+    background: url("https://hashinclude.info/footer-bg.cc00989cacc2122a.svg");
+   
+    background-size: cover;
+    color: #0b7077;
+    padding: 7% 7% 5%;
+}
+.contact-info a{
+    text-decoration: none; 
+    color: #0b7077;
+
+}
+.categories a{
+    text-decoration: none; 
+    color: #0b7077;
+}
+.links a{
+    text-decoration: none; 
+    color: #0b7077;
+}
+h6.footer-heading{
+    color: #0a033c;
+    font-weight: 600;
+
+}
+@media screen and (max-width:767px){
+   /* img .image-fluid.about-us-image{
+    width: 200% !important;
+   } */
+    .about-us-section{
+        margin-right: 19px;
+        margin-left: 12px;
+    }
+    #abouts-us{
+        flex-wrap: nowrap;
+        width: 30%;
+        margin-left: -67px;
+    }
+    /* #about-us{
+        width: 280%;
+    } */
+    /* #each-team-row{
+        width:55%;
+    } */
+    .team-img{
+        width: 88%;
+    }
+   /* .team-row-info {
+            flex-wrap: nowrap;
+          
+            width: 34% !important;
+        
+    } */
+    .team-info-block {
+            position: absolute;
+            top: 24px;
+            left: 28px;
+    }
+    h2.member-name{
+        font-size: 15px;
+    }
+    p.member-designation{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:576px){
+    #about-us{
+        width: 80%;
+    }
+    #abouts-us{
+        /* flex-wrap: nowrap; */
+        width: 25%;
+        margin-left:0px !important;
+        width: 99px;
+    }
+    /* .team-row-info {
+        flex-wrap: wrap;
+      
+        width: 34% !important;
+    } */
+    .team-img{
+        width: 231%;
+        /* margin: auto; */
+        margin-left: 40px;
+        margin-bottom: 12px;
+
+    }
+    .team-info-block{
+        position: absolute;
+        top: 74px;
+        left: 68px;
+    }
+    .member-name {
+        font-size: 21px !important;
+        width: 369px !important;
+        margin-bottom: 2px;
+    }
+    .member-designation{
+        font-size: 15px !important;
+        /* width: 128px !important; */
+        width: 151px !important;
+     }
+     img.image-fluid.team-img {
+        width: 70%;
+    }
+    .why-us-content {
+        max-width: 77%;
+        margin: auto;
+    }
+}
