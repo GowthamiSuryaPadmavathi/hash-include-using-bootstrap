@@ -162,3 +162,9 @@ h6.footer-heading{
     font-weight: 600;
 
 }
+@media screen and (max-width:767px){
+    img.image-fluid.fullstack-image {
+        width: 100%;
+    }
+
+}

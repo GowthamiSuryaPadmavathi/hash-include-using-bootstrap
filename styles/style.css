@@ -2,6 +2,7 @@ body{
     background: #161616 !important;
     font-family:  Raleway, sans-serif !important;
 }
+
 .logo{
 margin-left: 120px;
 }
@@ -12,7 +13,7 @@ margin-left: 120px;
 .navbar-nav .nav-item a.nav-navigation-link{
     font-size: 18px !important;
 }
-.hash-navbar .navbar-nav a.nav-link.active {
+.navbar-nav a.nav-link.active {
     color: #f8da64;
 }
 p.banner-call-section{

@@ -164,3 +164,12 @@ h6.footer-heading{
     font-weight: 600;
 
 }
+@media screen and (max-width:767px){
+    .fe-image{
+        
+           
+            margin: auto;
+            width: 100% ;
+       
+    }
+}

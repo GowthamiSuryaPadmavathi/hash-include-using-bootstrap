@@ -161,3 +161,8 @@ h6.footer-heading{
     font-weight: 600;
 
 }
+@media screen and (max-width:767px){
+    img.image-fluid.Testing-image {
+        width: 100%;
+    }
+}
